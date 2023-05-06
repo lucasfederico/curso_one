@@ -1,0 +1,29 @@
+.logo{
+    width: 100%;
+}
+.info{
+    text-align: center;
+    background-color: #CCC;
+    padding: 15px;
+}
+.italica{
+    font-style: italic;
+}
+span{
+    color: red;
+}
+.diferenciales{
+    padding: 15px;
+}
+.img_diferenciales{
+    width: 50%;
+}
+.lista{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+h2{
+    text-align: center;
+}
