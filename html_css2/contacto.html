@@ -21,24 +21,32 @@
     <main>
       <form action="">
         <label for="nombreyapellido">Nombre y Apellido</label>
-        <input type="text" id="nombreyapellido" />
+        <input type="text" id="nombreyapellido" class="inputs"/>
         <label for="email">Correo electronico</label>
-        <input type="text" id="email" />
+        <input type="text" id="email" class="inputs" />
         <label for="celular">Nro de celular</label>
-        <input type="number" id="celular" />
+        <input type="number" id="celular" class="inputs" />
         <label for="mensaje">Mensaje</label>
         <textarea cols="70" rows="10" id="mensaje"></textarea>
 
         <div>
           <p>Como le gustaria que lo contactemos?</p>
-          <label for="radio-email">Email</label>
-          <input type="radio" id="radio-email" value="email" name="contacto">
-          <label for="radio-celular">Celular</label>
-          <input type="radio" id="radio-celular" value="celular" name="contacto">
-          <label for="radio-whatsapp">Whatsapp</label>
-          <input type="radio" id="radio-whatsapp" value="whatsapp" name="contacto">
+          <label for="radio-email"><input type="radio" id="radio-email" value="email" name="contacto" checked>Email</label>
+          
+          <label for="radio-celular"><input type="radio" id="radio-celular" value="celular" name="contacto">Celular</label>
+          
+          <label for="radio-whatsapp"><input type="radio" id="radio-whatsapp" value="whatsapp" name="contacto">Whatsapp</label>
+          
         </div>
-        <label><input type="checkbox">Le gustaria recibir novedades de la barberia Alura?</label>
+        <div>
+          <p>En cual horario prefiere ser atendido?</p>
+          <select name="" id="">
+            <option value="">Mañana</option>
+            <option value="">Tarde</option>
+            <option value="">Noche</option>
+          </select>
+        </div>
+        <label class="checkbox"><input type="checkbox">Le gustaria recibir novedades de la barberia Alura?</label>
         <input type="submit" value="Enviar formulario" />
       </form>
     </main>
