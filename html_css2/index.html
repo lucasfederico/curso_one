@@ -5,13 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Barberia Alura</title>
-    <link rel="stylesheet" href="homestyle.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+
   </head>
   <body>
+    <header>
+      <img src="images/logo.png" alt="" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Productos</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
     <h1>Barberia Alura</h1>
-    <img class="logo" src="images/banner.jpg" alt="" />
-    <div class="info">
-      <h3>Sobre la Barberia Alura</h3>
+    <img class="banner" src="images/banner.jpg" alt="" />
+    <main>
+    <section class="principal">
+      <h2 class="titulo-principal">Sobre la Barberia Alura</h2>
+      <img class='utensilios' src="images/utensilios[1].jpg" alt="Utensilios">
       <p>
         Ubicada en el corazón de la ciudad, la
         <strong>Barbería Alura</strong> trae para el mercado lo que hay de mejor
@@ -31,16 +45,35 @@
         posee un padrón de exelencia y agilidad, garantizando calidad y
         satisfacción en nuestros clientes.
       </p>
+    </section>
+    <section class="mapa">
+      <h3 class="titulo-principal">Nuestra Ubicación</h3>
+      <p>Nuestro Establecimiento está ubicado en el corazón de la ciudad.</p>
+      <div class="contenedor-mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4079777269244!2d-46.63721302529476!3d-23.589697062632577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5bd9bb943bf5%3A0x6f642995c970f0fe!2scaelum%20alura!5e0!3m2!1ses!2sar!4v1684331988493!5m2!1ses!2sar" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
-    <div class="diferenciales">
-        <h2>Diferenciales</h2>
-        <ul class="lista">
+    </section>
+    <section class="diferenciales">
+        <h2 class="titulo-principal">Diferenciales</h2>
+
+        <div class="contenido-diferenciales">
+          <ul class="lista-diferenciales">
             <li>Atención personalizada a los clientes</li>
             <li>Espacio diferenciado</li>
             <li>Localización</li>
             <li>Profesionales calificados</li>
-        </ul>
-        <img  class='img_diferenciales' src="images/diferenciales.jpg" alt="">
+            <li>Puntualidad</li>
+            <li>Limpieza</li>
+        </ul><img  class='imagen-diferenciales' src="images/diferenciales.jpg" alt="">
+        </div>
+    </section>
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
     </div>
-  </body>
+  </main>
+    <footer>
+      <img src="images/logo-blanco.png" alt="">
+      <p>©Copyright Barbería Alura - 2020</p>
+    </footer>
+  </body>       
 </html>
